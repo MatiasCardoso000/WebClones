@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-logo-container {
+  display: flex;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 244, 247);
+}
+
+.facebook-logo {
+  width: 350px;
+}
+
+p {
+  width: 400px;
+  font-size: 26px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-container {
+  box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.2);
+  margin-left: 30px;
+  width: 400px;
+  height: 400px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.form-container form #email {
+  height: 20px;
+  width: 380px;
+}
+
+footer {
+  height: 180px;
+  width: 100%;
+  background-color: gray;
+}
