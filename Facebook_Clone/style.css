@@ -8,6 +8,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: SFProDisplay-Regular, Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -39,25 +40,97 @@ p {
 form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
   width: 100%;
 }
 
 .form-container {
   box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.2);
   margin-left: 30px;
-  width: 400px;
-  height: 400px;
+  width: 390px;
+  height: 370px;
   border-radius: 8px;
-  display: flex;
-  justify-content: center;
   background-color: rgb(255, 255, 255);
+  display: flex;
+  text-align: center;
 }
 
-.form-container form #email {
-  height: 20px;
-  width: 380px;
+.form-container form .inputs-container {
+}
+
+.form-container form input[type="email"],
+.form-container form input[type="password"] {
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid rgb(221, 223, 226);
+  width: 360px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  padding: 14px;
+}
+
+.login-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.login-btn {
+  height: 50px;
+  width: 360px;
+  background-color: rgb(8, 102, 255);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.login-btn:hover {
+  background-color: rgb(42, 119, 244);
+}
+
+a {
+  color: rgb(8, 102, 255);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.divisor-container {
+  display: flex;
+  justify-content: center;
+}
+
+.divisor {
+  height: 1px;
+  width: 370px;
+  background-color: rgb(218, 221, 225);
+  margin-top: 10px;
+}
+
+.create-account-btn {
+  height: 50px;
+  width: 195px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 700;
+  background-color: rgb(66, 183, 42);
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.create-account-btn:hover {
+  background-color: rgb(70, 166, 51);
 }
 
 footer {

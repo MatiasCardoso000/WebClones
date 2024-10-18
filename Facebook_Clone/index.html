@@ -20,11 +20,25 @@
         </div>
         <div class="form-container">
           <form>
-            <input type="email" id="email" /><input type="password" />
-            <button>Iniciar sesión</button>
-            <span>¿Olvidaste tu cuenta?</span>
+            <div class="inputs-container">
+              <input
+                type="email"
+                id="email"
+                placeholder="Correo electrónico o número de teléfono"
+              /><input type="password" placeholder="Contraseña" />
+            </div>
+            <div class="login-btn-container">
+              <button class="login-btn">Iniciar sesión</button>
+              <span><a href="#">¿Olvidaste tu contraseña?</a> </span>
+            </div>
 
-            <button>Crear cuenta nueva</button>
+            <div class="divisor-container">
+              <div class="divisor"></div>
+            </div>
+
+            <div>
+              <button class="create-account-btn">Crear cuenta nueva</button>
+            </div>
           </form>
         </div>
       </section>
